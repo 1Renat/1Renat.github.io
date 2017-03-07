@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Coffee machine</title>
+  
+ </head>
+ <body>
+ <div class="wrapper">
+<div class="droplink">
+<button class="" onclick="Mooney()">Выбрать купюру</button>
+<ul id="dropdown" style="display:none">
+<li class=""><a href="" value=10>10</a></li>
+<li class=""><a href="" value=50>50</a></li>
+<li class=""><a href="" value=100>100</a></li>
+<li class=""><a href="" value=500>500</a></li>
+</ul>
+</div>
+</div>
+  <script type="text/javascript">
+ var Espresso = {
+ 	price: 20,
+ 	water: 70
+ };
+ var Latte = {
+ 	price: 25,
+ 	water: 150
+ };
+ var Americano = {
+ 	price: 25,
+ 	water: 150
+ };
+ var Cappuchino = {
+ 	price: 30,
+ 	water: 150
+ };
+ var water = 10000;
+
+ function Buy() {
+
+ }
+ function Mooney()
+{
+var a = document.getElementById('dropdown');
+if ( a.style.display == 'none' )
+a.style.display = 'block'
+else
+if ( a.style.display == 'block' )
+a.style.display = 'none';
+};
+ </script>
+
+
+ </body>
+ <script type="text/javascript">
+</script>
+</html>
